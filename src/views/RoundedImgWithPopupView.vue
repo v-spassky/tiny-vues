@@ -6,7 +6,6 @@
 </template>
 
 <script lang="ts">
-
 import { defineComponent } from 'vue';
 import RoundedImgWithPopup from '@/components/RoundedImgWithPopup.vue';
 
@@ -16,5 +15,4 @@ export default defineComponent({
         RoundedImgWithPopup,
     },
 });
-
 </script>

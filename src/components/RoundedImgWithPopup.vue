@@ -28,7 +28,6 @@ Usage example:
 </template>
 
 <script setup lang="ts">
-
 import { ref, defineProps, Ref } from "vue";
 
 let descriptionIsVisible: Ref<boolean> = ref(false);
@@ -41,11 +40,9 @@ const props = defineProps({
     mediaLink: String,         // link to the resource
     mediaDescription: String,  // description of the resource
 })
-
 </script>
 
 <style>
-
 .v-enter-active, .v-leave-active {
     transition: opacity 0.5s ease;
 }
@@ -53,5 +50,4 @@ const props = defineProps({
 .v-enter-from, .v-leave-to {
     opacity: 0;
 }
-
 </style>
