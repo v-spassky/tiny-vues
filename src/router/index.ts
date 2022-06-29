@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 import RoundedImgWithPopupView from '../views/RoundedImgWithPopupView.vue'
 import CircularLayoutView from '../views/CircularLayoutView.vue'
+import ArrowDropdownView from '../views/ArrowDropdownView.vue'
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -13,6 +14,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/circularlayout',
         name: 'circularlayout',
         component: CircularLayoutView
+    },
+    {
+        path: '/arrowdropdown',
+        name: 'arrowdropdown',
+        component: ArrowDropdownView
     }
 ]
 
